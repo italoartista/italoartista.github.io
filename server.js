@@ -1,8 +1,8 @@
 /* static server */ 
 
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
+const http = require('node:http');
+const fs = require('node:fs');
+const path = require('node:path');
 
 const port = 3000;
 const publicDirectory = path.join(__dirname, 'public');
